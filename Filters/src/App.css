@@ -1,0 +1,134 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  color: #585858;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1080px;
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;    
+  margin: 30px 0 20px;
+}
+p.subtitle {
+  margin-top: 0;
+}
+.searchInput {
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  padding: 0 15px;
+  line-height: 30px;
+  margin: 80px 0 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.searchIcon {
+  color: rgb(0, 33, 105);
+  position: relative;
+  top: 6px;
+  margin-left: -40px;
+}
+.dropdownBar {
+  background-color: #fafafa;
+  padding: 5px 10px 10px;
+}
+.redMenu {
+  color: #f00;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  top: 2px;
+}
+.allFilters {
+  color: rgb(0, 33, 105);
+  font-weight: 600;
+  font-size: 14px;
+  width: 90px;
+  flex: 0 0 auto;
+  height: 20px;
+}
+.filterBox {
+  font-size: 12px;  
+}
+.filterBox select{
+  font-size: 14px;
+  background: #fff;
+  border: 0;
+  border-bottom: 1px solid #d4d4d4;
+  height: 30px;
+  color: #585858;
+}
+.addToCompare {
+  font-size: 13px;
+  text-align: right;
+  padding: 0 0 5px;
+}
+.card-img-top {
+  background: #efefef;
+  height: 150px;
+}
+.card-body {
+  padding: 5px 0;
+}
+.card-title {
+  font-weight: 700;
+  color:rgb(0, 33, 105);
+  border-bottom: 1px solid #efefef;
+  padding: 0 0 5px;
+}
+.med {
+  color: green;
+  position: relative;
+  top: 4px;
+  margin: 0 5px 0 0;
+}
+.police {
+  color:rgb(0, 33, 105);
+  position: relative;
+  top: 4px;
+}
+.fire {
+  color: #f00;
+  position: relative;
+  top: 4px;
+}
+.checks {
+  font-size: 12px;
+  min-height: 40px;
+
+}
+.check {
+  position: relative;
+  top: 2px;
+  font-size: 12px;
+}
+.dropShadow {
+  -webkit-box-shadow: 3px 7px 7px 0px rgba(0,0,0,0.3); 
+  -moz-box-shadow: 3px 7px 7px 0px rgba(0,0,0,0.3);
+box-shadow: 3px 7px 7px 0px rgba(0,0,0,0.3);
+}
+
+.CADheading {
+  color: #fff;
+  background-color: #525252;
+  font-size: 24px;
+  line-height: 1.8;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin: 30px 0 20px;
+}
